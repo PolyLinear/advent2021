@@ -1,3 +1,4 @@
+#![allow(unused)]
 use std::error::Error;
 
 fn parse_input(path: &str) -> Result<Vec<Vec<u8>>, Box<dyn Error>> {
